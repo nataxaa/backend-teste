@@ -6,7 +6,7 @@ export type Article = {
 }
 
 type aritcle_complete = {
-    id:number;
+    id:string;
     url: string;
     image: string;
     name: string;
