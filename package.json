@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev --transpile-only src/server.ts",
-    "vercel-build": "npx prisma migrate && npm clean-install"
+    "vercel-build": "npx prisma migrate deploy && npm clean-install"
   },
   "keywords": [],
   "author": "",
