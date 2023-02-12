@@ -31,7 +31,7 @@ import express from 'express'
 import { useRoutes } from './routes';
 
 
-const server = express()
+const server = (module.exports = express())
 server.use(cors())
 server.use(bodyParser.json());
 useRoutes(server)
